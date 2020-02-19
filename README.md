@@ -7,7 +7,9 @@ The project focuses on measurement and documentation concentrations of PM2.5/PM1
 
 # Description 
 The project can be divided on parts:
-* device is composed with:
+* measuring device:
   - [microcontroller ES8266](#esp8266)
   - [microcontroller Nucleo STM32F4](#nucleo)
   - others: optical sensor dust, sensor temperature, humidity and pressure, display OLED, reader card microSD, LED
+* [mobile appliction](#app)
+* [server](#server)

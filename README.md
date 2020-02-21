@@ -24,6 +24,18 @@ The possibilities of this project are:
 
 
 ## Microcontroller ES8266
+Microcontroller esp8266 is one of the most popular microcontroller which can act as module WIFI. 
+
+Software ESP826 was developed using Arduino IDE.
+
+Targets of ESP8266 are:
+- connection with microSD card:
+  * loading requiered data to do network connection and data for configuration
+  * saving measurement results on a microSD card
+- doing network connection:
+  * loading configuration data from MySQL Database
+  * saving measurement results to MySQL Database,
+  * sending periodic inforamtion about the status of device
 ## Microcontroller Nucleo STM32F4
 ## Mobile Application
 ## Server

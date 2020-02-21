@@ -14,6 +14,15 @@ The project can be divided on parts:
 * [Mobile Application](#mobile-application)
 * [Server](#server)
 
+## Description
+The possibilities of this project are:
+- measurement of concentrations PM2.5/PM10 using a optical dust sensor
+- measurement meteorology parameters: air temperature, relative humidity and atmospheric pressure using digital sensor
+- save measurement results on a microSD card
+- save measurement results to MySQL Database
+- presentation of measurement results on build-in display
+
+
 ## Microcontroller ES8266
 ## Microcontroller Nucleo STM32F4
 ## Mobile Application

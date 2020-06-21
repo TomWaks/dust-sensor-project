@@ -8,11 +8,11 @@ The project focuses on measurement and documentation concentrations of PM2.5/PM1
 # Description 
 The project can be divided on parts:
 * measuring device:
-  - [Microcontroller ES8266](#microcontroller-ESP8266)
-  - [Microcontroller Nucleo STM32F4](#microcontroller-nucleo-stm32f4)
+  - [Microcontroller ES8266](https://github.com/TomWaks/esp8266-dust-sensor-project)
+  - [Microcontroller Nucleo STM32F4](https://github.com/TomWaks/stm32-dust-sensor-project)
   - others: optical sensor dust, sensor temperature, humidity and pressure, display OLED, reader card microSD, LED
-* [Mobile Application](#mobile-application)
-* [Server](#server)
+* [Mobile Application](https://github.com/TomWaks/android-dust-sensor-project)
+* [Server](https://github.com/TomWaks/server-dust-sensor-project)
 
 ## Description
 The possibilities of this project are:
@@ -22,23 +22,3 @@ The possibilities of this project are:
 - save measurement results to MySQL Database
 - determining location based on information about cell towers and WIFI nodes that the module WIFI can detect
 - presentation of measurement results on build-in display
-
-
-## Microcontroller ES8266
-Microcontroller esp8266 is one of the most popular microcontroller which can act as module WIFI. 
-<kbd>![Alt text](images/esp8266.png)</kbd>
-Software ESP826 was developed using Arduino IDE.
-
-Targets of ESP8266 are:
-- connection with microSD card:
-  * loading requiered data to do network connection and data for configuration
-  * saving measurement results on a microSD card
-- doing network connection:
-  * determining location based on information about cell towers and WIFI nodes that the module WIFI can detect
-  * loading configuration data from MySQL Database
-  * saving measurement results to MySQL Database,
-  * sending periodic information about the status of device
-  
-## Microcontroller Nucleo STM32F4
-## Mobile Application
-## Server
